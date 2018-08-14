@@ -30,6 +30,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.latch_unsignaled=1 \
     sdm.debug.prefersplit=1
 
+# FRP
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.frp.pst=/dev/block/platform/soc/1d84000.ufshc/by-name/config
+
 # IOP
 PRODUCT_PROPERTY_OVERRIDES += \
     iop.enable_prefetch_ofr=1 \
