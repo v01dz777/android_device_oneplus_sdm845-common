@@ -109,6 +109,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USES_MKE2FS := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Root
 BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware odm op1 op2 persist
 
