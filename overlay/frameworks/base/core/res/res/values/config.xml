@@ -345,4 +345,8 @@
     <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
     <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
 
+    <!-- BurnIn protection. This should be enabled on devices that have OLED displays -->
+    <!-- applies to both navbar and SmartPixels -->
+    <bool name="config_enableBurnInProtection">true</bool>
+
 </resources>
