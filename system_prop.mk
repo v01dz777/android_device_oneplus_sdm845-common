@@ -34,6 +34,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/platform/soc/1d84000.ufshc/by-name/config
 
+# CNE
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.cne.feature=1
+
 # IOP
 PRODUCT_PROPERTY_OVERRIDES += \
     iop.enable_prefetch_ofr=1 \

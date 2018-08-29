@@ -4,6 +4,11 @@ lib64/com.qualcomm.qti.ant@1.0.so
 lib/com.qualcomm.qti.ant@1.0.so
 -lib/libantradio.so
 
+# CNE
+etc/cne/andsfCne.xml
+etc/cne/SwimConfig.xml
+-priv-app/CNEService/CNEService.apk
+
 # DASH
 -sbin/dashd;rootfs
 
